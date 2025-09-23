@@ -5,17 +5,17 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "HUoi2aQR#C8c1Z97G6lXi90qSgum2XTzRE8U_5J6cMpggrSdOfwQ", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "jERiiRpQ#M9dbN3jSVuIaWXT614FdeMO8MfmfrNvtH_ljWLatBSw", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94772045782",
-DEV: process.env.DEV || "94772045782",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94726655832",
+DEV: process.env.DEV || "94726655832",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
-AUTO_BIO: process.env.AUTO_BIO || "true",
+AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
 AUTO_REPLY: process.env.AUTO_REPLY || "true",    
